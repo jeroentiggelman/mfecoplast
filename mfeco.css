@@ -1,0 +1,19 @@
+body {
+	background-color: white;
+	text-align: justify;
+	width: 800px;
+	font-size: 12px;
+	font-family: arial;
+	color: #000099;
+}
+
+a { color:#9B13F4; }
+
+a:hover {color:#000000;}
+
+td { font-size: 12px; }
+
+h1 { font-size: 22px;color:purple }
+
+h2 { font-size: 18px;color:#AAAAAA }
+
