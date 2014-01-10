@@ -5,44 +5,26 @@ body {
     font-size: 100%;    
     background: #555 url(../images/achtergrond_plank.jpg);
 }
-
-body_popup { 
-    margin: 0;
-    padding: 0; 
-    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 100%;
-}
-
 #wrapper {
     width: 940px;
     margin: 0 auto;
-    /*background: blue;*/
-    /*no background color */
 }
-
-#intro {
-    padding-bottom: 10px;
-}
-
+#intro { padding-bottom: 10px; }
 h1 {
 	color: #ccc;
 	margin: 0;
 }
-
-
 h2 {
     margin: 0;
     margin-bottom: 14px;
     padding: 0;
     font-style: normal;    
 }
-
 #slider {
     width: 895px; /*breedte varieren 1 van 3* - is ook breedte van beeld onderaan*/
     margin: 0 auto;
     position: relative;
 }
-
 .scroll {
     height: 601px;
     width: 895px; /*breedte varieren 2 van 3*/
@@ -53,7 +35,6 @@ h2 {
     color: #fff;
     background: #000 url(images/content_pane-gradient.gif) repeat-x scroll left bottom;
 }
-
 .scrollContainer div.panel a:link {
 	font-weight: bold;
 	text-decoration: none;
@@ -74,77 +55,46 @@ h2 {
 	text-decoration: none;
 	color:#fff;
 } /* selected link */
-
 .scrollContainer div.panel {
     padding: 20px;
     height: 460px;
     width: 855px; /*breedte varieren 3 van 3 - rekening houden met breedte van de pijltjes links en rechts*/
     background: #000;
 }
-
-.scrollContainer div.panel p {
- font-size: 14px;
-}
-
+.scrollContainer div.panel p { font-size: 14px; }
 #barre_adresse {
     background: #555 url(../images/barre_adresse.jpg);
     height: 70px;
     text-indent: -5000px;
     margin-top: 5px;
 }
-
 ul.navigation {
     list-style: none;
     margin: 0;
     padding: 0;
     padding-bottom: 9px;
 }
-
 ul.navigation li {
     display: inline;
     margin-left: 37px;
 }
-
 ul.navigation a {
     padding: 10px;
     color: #fff;
     text-decoration: none;
     background-color: #444;
-    /*border-right: 2px solid black;
-	border-left: 2px solid black;
-	border-top: 2px solid black;*/
 }
-
-ul.navigation a:hover {
-    background-color: #000;
-}
-
-ul.navigation a.selected {
-    background-color: #000;
-}
-
-ul.navigation a:focus {
-    outline: none;
-}
-
+ul.navigation a:hover { background-color: #000; }
+ul.navigation a.selected { background-color: #000; }
+ul.navigation a:focus { outline: none; }
 .scrollButtons {
     position: absolute;
     top: 325px;
     cursor: pointer;
 }
-
-.scrollButtons.left {
-    left: -20px;
-}
-
-.scrollButtons.right {
-    right: -20px;
-}
-
-.hide {
-    display: none;
-}
-
+.scrollButtons.left { left: -20px; }
+.scrollButtons.right { right: -20px; }
+.hide { display: none; }
 .beeld_in_tekst {
 	margin-left: -15px;
 	margin-right: 10px;
@@ -152,7 +102,6 @@ ul.navigation a:focus {
 	float: left;
 	border: 0px;
 }
-
 .logo {
 	margin-left: 0px;
 	margin-right: -2px;
@@ -160,19 +109,16 @@ ul.navigation a:focus {
 	float: left;
 	border: 0px;
 }
-
 .image_bas {
 	margin-left: -20px;
 	position: absolute;
     top: 315px;
 }
-
 #titreprincipal {
 	height: 105px;
 	background: #555 url(../images/titreprincipal.jpg);
 	text-indent: -5000px;
 }
-
 #news {
 	height: 230px;
 	width: 180px;
@@ -190,133 +136,89 @@ ul.navigation a:focus {
 	opacity:0.9;
 	/* 0.9 voor zichtbaar */
 }
-
 #news p {
 	margin: 0;
 	font-size: 1em;
 	color: #fff;
 	margin-bottom: 1em;
 }
-#news p span {
-	color: #c20390;
-}
-
+#news p span { color: #c20390; }
 #news li, ul {
-margin-left: 5px;
-padding-left: 0px;
-font-size: 12px;
-color: #fff;
+	margin-left: 5px;
+	padding-left: 0px;
+	font-size: 12px;
+	color: #fff;
 }
-
 #news h3 {
-margin: 0;
-margin-top: 5px;
-font-size: 18px;
-color: #fff;
-
+	margin: 0;
+	margin-top: 5px;
+	font-size: 18px;
+	color: #fff;
 }
-
 #titrenews {
 	height: 30px;
 	background: #bbb url(../images/titrenews.jpg) no-repeat;
 	text-indent: -5000px;
 }
-
 .qui_sommes_nous {
-background: #000;
-height: 300px;
-width: 420px;
-margin-left: 20px;
-margin-right: 0px;
-margin-top: 0px;
-float: left;
-border: 0px;
-overflow: hidden;
-padding-top: 30px;
-}
-
-.blockacceuil {
-background: #000;
-height: 200px;
-width: 200px;
-margin-left: 19px;
-float: left;
-overflow: hidden;
-}
-
-.beeld_knop {	
+	background: #000;
+	height: 300px;
+	width: 420px;
+	margin-left: 20px;
+	margin-right: 0px;
+	margin-top: 0px;
+	float: left;
 	border: 0px;
+	overflow: hidden;
+	padding-top: 30px;
 }
-
+.blockacceuil {
+	background: #000;
+	height: 200px;
+	width: 200px;
+	margin-left: 19px;
+	float: left;
+	overflow: hidden;
+}
+.beeld_knop { border: none; }
 .text_categorie {
-background: #000;
-height: 300px;
-width: 415px;
-margin-left: 0px;
-margin-right: 0px;
-margin-top: 0px;
-float: left;
-border: 0px;
-overflow: auto;
+	background: #000;
+	height: 300px;
+	width: 415px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	float: left;
+	border: 0px;
+	overflow: auto;
 }
-
 .block_accordion {
-background: #000;
-height: 300px;
-width: 420px;
-margin-left: 20px;
-margin-right: 0px;
-margin-top: 0px;
-float: left;
-border: 0px;
-overflow: hidden;
+	background: #000;
+	height: 300px;
+	width: 420px;
+	margin-left: 20px;
+	margin-right: 0px;
+	margin-top: 0px;
+	float: left;
+	border: 0px;
+	overflow: hidden;
 }
-
-.contenu_accordion {
-height: 100px;
-}
-
-#accordion_terrasses_jardin {
-font-size: 11px;
-height: 299px;
-}
-
-#accordion_terrasses_jardin p {
-font-size: 10px;
-}
-
-#accordion_mobilier_urbain {
-font-size: 11px;
-height: 299px;
-}
-
-#accordion_mobilier_urbain p {
-font-size: 10px;
-}
-
-#accordion_chevaux {
-font-size: 11px;
-height: 299px;
-}
-
-#accordion_chevaux p {
-font-size: 10px;
-}
-
+.contenu_accordion { height: 100px; }
+#accordion_terrasses_jardin p,
+#accordion_mobilier_urbain p,
+#accordion_chevaux p,
+#accordion_bains p { font-size: 11px; }
+#accordion_terrasses_jardin,
+#accordion_mobilier_urbain,
+#accordion_chevaux,
 #accordion_bains {
-font-size: 11px;
-height: 299px;
+	font-size: 11px;
+	height: 299px;
 }
-
-#accordion_bains p {
-font-size: 10px;
-}
-
 #contact {
-overflow: hidden;
-height: 560px;
+	overflow: hidden;
+	height: 560px;
 }
-
 #contact h1 {
 	margin: 0;
 	margin-bottom: 20px;	
@@ -325,16 +227,11 @@ height: 560px;
 	font-style: normal;
 	font-size: 20px;
 }
-
-#contact p {
-	margin-left: 12px;
-}
-
+#contact p { margin-left: 12px; }
 #contact legend {
 	font-size: 10px;
 	color: #fff;
 }
-
 #contact fieldset {
 	padding-top: 10px;
 	font-size: 12px;
@@ -342,21 +239,18 @@ height: 560px;
 	border: #333 solid 1px;
 	background: #555 url(../images/degrade_contact_form.jpg) repeat-x;
 }
-
 #firefox {
 	width: 110px;
 	/*border: #fff solid 1px;*/
 	margin: 0 auto;
 	margin-top: 20px;
 }
-
 #firefox p {
 	color: #ddd;
 	font-size: 9px;
 	text-align: center;
 	margin: 0px 0px 5px 0px;
 }
-
 #firefox a {
 	color: #ddd;
 	font-style: normal;
